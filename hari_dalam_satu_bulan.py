@@ -14,9 +14,9 @@ while True:
 
 if bulan % 2 == 0 and bulan != 2:
     jumlah_hari = jumlah_hari-1
-    print(jumlah_hari)
+    print("jumlah hari pada bulan ini adalah :", jumlah_hari)
 elif bulan == 2:
     jumlah_hari = jumlah_hari - 3
-    print(jumlah_hari)
+    print("jumlah hari pada bulan ini adalah :", jumlah_hari)
 else:
    print("jumlah hari pada bulan ini adalah :", jumlah_hari)
